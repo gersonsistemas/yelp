@@ -5,5 +5,5 @@ Sistema de búsqueda de negocios mediante yelp y google maps, podra acceder a re
 
 - Clone el repositorio
 - Exporte la base de datos
-- En /model, cree el archibo de configuracion db.php
+- En /model, cree el archivo de configuración db.php
 - En /api, incluya las api keys de google maps y yelp
