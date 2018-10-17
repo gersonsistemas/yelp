@@ -1,0 +1,52 @@
+.mensaje-bottom-success{
+    
+    bottom: 0px;
+    right: 1%;
+    width: 25%;
+    position: fixed;
+    z-index: 3004;
+}
+
+.mensaje-bottom-info{
+    
+    bottom: 0px;
+    right: 3%;
+    width: 25%;
+    position: fixed;
+    z-index: 3003;
+}
+
+.mensaje-bottom-warning{
+    
+    bottom: 0px;
+    right: 2%;
+    width: 25%;
+    position: fixed;
+    z-index: 3002;
+}
+
+
+.mensaje-bottom-danger{
+    
+    bottom: 0px;
+    right: 3%;
+    width: 25%;
+    position: fixed;
+    z-index: 3001;
+}
+
+
+
+.mensaje-top-r{
+    top: 5px;
+    right: 10px;
+    width: 25%;
+    position: fixed;
+    z-index: 3000;
+    
+}
+
+.img-gallery-gamp{
+    width: 100%;
+    height: 150px;
+}

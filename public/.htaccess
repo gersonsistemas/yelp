@@ -1,0 +1,28 @@
+RewriteEngine On
+#Rutas declaradas para mantener URL amigables
+RewriteRule ^login autoload.php?ruta=login
+RewriteRule ^logout autoload.php?ruta=logout
+
+RewriteRule ^home autoload.php?ruta=home
+RewriteRule ^profile autoload.php?ruta=profile
+RewriteRule ^users autoload.php?ruta=users
+RewriteRule ^company autoload.php?ruta=company
+RewriteRule ^backup autoload.php?ruta=backup
+RewriteRule ^execute-backup autoload.php?ruta=execute-backup
+RewriteRule ^gallery autoload.php?ruta=gallery
+RewriteRule ^phpmailer autoload.php?ruta=phpmailer
+RewriteRule ^bitacora autoload.php?ruta=bitacora
+
+RewriteRule ^nosession autoinfo.php?ruta=nosession
+RewriteRule ^lockscreen autoinfo.php?ruta=lockscreen
+RewriteRule ^errordb autoinfo.php?ruta=errordb
+RewriteRule ^forbidden autoinfo.php?ruta=forbidden
+RewriteRule ^reporte autoinfo.php?ruta=reporte
+
+
+
+
+RewriteRule ^cities autoload.php?ruta=cities
+RewriteRule ^business autoload.php?ruta=business
+RewriteRule ^search-business autoload.php?ruta=search-business
+RewriteRule ^search-reviews autoload.php?ruta=search-reviews

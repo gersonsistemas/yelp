@@ -1,0 +1,51 @@
+
+body {
+  font-family: sans-serif;
+	text-align: justify;
+    padding-top: -35px;
+    padding-left: -35px;
+    padding-right: -30px;
+}
+
+#header,
+#footer {
+  position: fixed;
+  left: 0;
+	right: 0;
+	color: #000;
+}
+
+#header {
+  top: 0;
+    position: adsolute;
+}
+
+#pre-footer {
+    position: fixed;
+    bottom: 60;
+    left: 350;
+}
+
+#footer {
+  bottom: 0;
+  border-top: 0.1pt solid #aaa;
+}
+
+#parrafo {
+    font-size: 9pt;
+    text-align: justify;
+    padding-top: 20px;
+}
+
+#logo2{
+    padding-left: 200px;
+}
+
+.page-number {
+  text-align: center;
+}
+
+.page-number:before {
+  content: "Pagina " counter(page);
+}
+
